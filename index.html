@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biuro Rachunkowe Czajka</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/99d0019b2f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">DLACZEGO MY</a></li>
+                    <li><a href="">USŁUGI</a></li>
+                    <li><a href="">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>Księgowość z Pasją</h1>
+        <p>Rodzinne biuro rachunkowe zajmujące się pełną księgowością <br> oraz doradztwem księgowo-rachunkowym</p>
+        <a href="" class="hero-btn">Dowiedz się więcej!</a>
+    </div>
+
+    </section>
+
+    
+    <!--SERVICES-->
+    
+    <section class="services">
+
+        <h1>Nasze Usługi</h1>
+
+        <div class="row">
+            <div class="course-col">
+                <i class="fa fa-address-card" aria-hidden="true"></i>
+                <h3>Kadry i płace</h3>
+                <p>Sporządzanie list płac, deklaracji ZUS. Prowadzenie akt osobowych pracowników.</p>
+            </div>
+
+            <div class="course-col">
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                <h3>Rejestrowanie firmy</h3>
+                <p>Pomoc w wyborze optymalnej formy opodatkowania. Przygotowanie dokumentów koniecznych przy rejestracji działalności.</p>
+            </div>
+
+            <div class="course-col">
+                <i class="fa fa-book" aria-hidden="true"></i>
+                <h3>Pełna Księgowość</h3>
+                <p>Kompleksowa obsługa księgowa. Prowadzenie ksiąg rachunkowych, rejestracja operacji finansowych, analiza bilansu i sporządzanie sprawozdań finansowych.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="course-col">
+                <i class="fa fa-file" aria-hidden="true"></i>
+                <h3>Ryczałt</h3>
+                <p>Prowadzenie ewidencji przychodów i rozchodów, ewidencji sprzedaży i zakupów VAT, oraz ewidencji środków trwałych.</p>
+            </div>
+
+            <div class="course-col">
+                <i class="fa fa-calculator" aria-hidden="true"></i>
+                <h3>Rozliczenie Podatkowe</h3>
+                <p>Pomoc w przygotowywaniu deklaracji podatkowych, w tym PIT, CIT, VAT, oraz rozliczeń ZUS.</p>
+            </div>
+
+            <div class="course-col">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <h3>E-faktury</h3>
+                <p>Księgowość w pełni zdalna, umożliwiająca klarowną komunikację, bez ograniczeń logistycznych.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WhyUs -->
+
+    <section class="whyus">
+
+        <h1>Dlaczego My?</h1>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Doświadczona kadra</h3>
+                <p>Nasz zespół składa się z doświadczonych księgowych, którzy nie tylko posiadają bogatą wiedzę w dziedzinie księgowości, ale także angażują się w <b>pełen profesjonalizm i troskę o Twój sukces</b>.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Księgowość dla każdego</h3>
+                <p>Niezależnie od tego, czy prowadzisz małą firmę, czy też średniej wielkości przedsiębiorstwo, <b>oferujemy pełną gamę usług księgowych dostosowanych do Twoich indywidualnych potrzeb</b>.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Transparentność i Zaufanie</h3>
+                <p>Stawiamy na transparentność w naszej pracy. Możesz być pewien, że <b>Twoje finanse są w dobrych rękach</b>. Nasze usługi są <b>rzetelne, zgodne z przepisami i etyczne</b>.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h1>Skontaktuj się z Nami!</h1>
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Św. Jacka Odrowąża 15, parter</h5>
+                        <p>03-310 Warszawa</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+48 698-888-182<br>+48 784-053-849</h5>
+                        <p>Poniedziałek-Piątek, od 8 do 16</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>biurorachunkowe.czajka@wp.pl</h5>
+                        <p>Napisz do nas!</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form data-netlify="true" method="post">
+                    <input type="text" name="name" placeholder="Imię i Nazwisko" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="text" name="subject" placeholder="Temat Wiadomości" required>
+                    <textarea rows="8" name="message" placeholder="Treść Wiadomości" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Wyślij Wiadomość</button>
+                </form>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2441.1180504061704!2d21.025094576390302!3d52.27755877199863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecdb6b48b6e3b%3A0xd0b3a474b67c8517!2s%C5%9Bw.%20Jacka%20Odrow%C4%85%C5%BCa%2015%2C%2003-310%20Warszawa!5e0!3m2!1sen!2spl!4v1694722378432!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </section>
+    
+
+    <section class="footer">
+        <p>Jesteśmy dumni z tego co robimy i zawsze staramy się przekroczyć oczekiwania naszych klientów. Jeśli szukasz rzetelnego partnera w zarządzaniu finansami swojej firmy, to jesteśmy tutaj by Ci pomóc.<br> Skontaktuj się z nami już dzisiaj, aby dowiedzieć się, jak możemy wesprzeć rozwój Twojego biznesu!</p>
+        <p>Made with <i class="fa fa-heart-o"></i> by TheryaNet</p>
+    </section>
+<!--------JavaScript for Toggle Menu------->
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-44vw";
+    }
+</script>
+
+</body>
+</html>
