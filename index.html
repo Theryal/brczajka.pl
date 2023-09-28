@@ -14,14 +14,14 @@
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="Logo.png"></a>
+            <a href="index.html"><img src="Logo.png" id="home"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">DLACZEGO MY</a></li>
-                    <li><a href="">USŁUGI</a></li>
-                    <li><a href="">KONTAKT</a></li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#serv">USŁUGI</a></li>
+                    <li><a href="#why">DLACZEGO MY</a></li>
+                    <li><a href="#cont">KONTAKT</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -30,7 +30,7 @@
     <div class="text-box">
         <h1>Księgowość z Pasją</h1>
         <p>Rodzinne biuro rachunkowe zajmujące się pełną księgowością <br> oraz doradztwem księgowo-rachunkowym</p>
-        <a href="" class="hero-btn">Dowiedz się więcej!</a>
+        <a href="#cont" class="hero-btn">Dowiedz się więcej!</a>
     </div>
 
     </section>
@@ -38,7 +38,7 @@
     
     <!--SERVICES-->
     
-    <section class="services">
+    <section class="services" id="serv">
 
         <h1>Nasze Usługi</h1>
 
@@ -85,7 +85,7 @@
 
     <!-- WhyUs -->
 
-    <section class="whyus">
+    <section class="whyus" id="why">
 
         <h1>Dlaczego My?</h1>
 
@@ -107,7 +107,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="cont">
         <h1>Skontaktuj się z Nami!</h1>
         <div class="row">
             <div class="contact-col">
@@ -140,7 +140,7 @@
                     <input type="email" name="email" placeholder="E-mail" required>
                     <input type="text" name="subject" placeholder="Temat Wiadomości" required>
                     <textarea rows="8" name="message" placeholder="Treść Wiadomości" required></textarea>
-                    <div data-netlify-recaptcha="true"></div>
+                    <div data-netlify-recaptcha="true" name="captcha"></div>
                     <button type="submit" class="hero-btn red-btn">Wyślij Wiadomość</button>
                 </form>
 

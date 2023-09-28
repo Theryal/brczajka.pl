@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
 }
 .header {
     min-height: 100vh;
@@ -236,7 +237,7 @@ h3 {
 .contact-col div {
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .contact-col div .fa {
@@ -260,7 +261,7 @@ h3 {
 .contact-col input, .contact-col textarea {
     width: 100%;
     padding: 15px;
-    margin-bottom: 17px;
+    margin-bottom: 10px;
     outline: none;
     border: 1px solid #ccc;
     box-sizing: border-box;
